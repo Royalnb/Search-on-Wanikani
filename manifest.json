@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name":"Search on Wanikani",
+    "description": "Search for the selected kanji or vocabulary on Wanikani",
+    "version": "1.0",
+    "author": "Ollie, Royalnb",
+    "homepage_url": "https://github.com/Ollie2304",
+    "icons": {
+        "48": "icons/icon48.png",
+        "64": "icons/icon64.png",
+        "96": "icons/icon96.png"
+    },
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
